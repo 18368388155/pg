@@ -91,7 +91,7 @@
 	            "quickSearch": 0,
 	            "changeable": 0,
 	            "ext": {
-	                "type":"水流之音聖樂團SOLSO#台北市召會主日聚會話語服事#新人 NEWMAN#Goshen Prayer#好東西集散地#水深・火熱",
+	                "json":"./lib/youtube.json",
 	                "proxy": "proxy"
 	            },
 	            "style": {
