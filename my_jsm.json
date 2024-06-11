@@ -91,7 +91,7 @@
 	            "quickSearch": 0,
 	            "changeable": 0,
 	            "ext": {
-	                "json":"./lib/youtube.json",
+	                "json":"./lib/youtube_1189.json",
 	                "proxy": "proxy"
 	            },
 	            "style": {
