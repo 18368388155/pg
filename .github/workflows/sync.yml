@@ -1,0 +1,19 @@
+name: Sync Fork
+
+on:
+  #push: # push 时触发, 主要是为了测试配置有没有问题
+  schedule:
+    - cron: '0 2 */7 * *' # every 7 day
+  workflow_dispatch: # on button click
+
+jobs:
+  sync:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: tgymnich/fork-sync@v1.8
+        with:
+          owner: alantang1977
+          base: main
+          head: main
