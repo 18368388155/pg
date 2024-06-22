@@ -19,7 +19,7 @@
 			"searchable": 1,
 			"quickSearch": 0,
 			"changeable": 0,
-			"ext":{"json":"./lib/youtube.json",
+			"ext":{"json":"./lib/youtube0.json",
 				"type":"直播#新闻#剧集#电影#综艺#纪录片#音乐#体育#动物#风光#放松#4K#HDR#movie#music#documentary#bbc documentary#national geographic documentary",
 				"keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
 				"codecs":"",
@@ -104,7 +104,7 @@
 			"quickSearch": 0,
 			"changeable": 0,
 			"ext":{
-				"json":"./lib/youtube1.json",
+				"json":"./lib/youtube.json",
 				"type":"直播#新闻#剧集#电影#综艺#纪录片#音乐#体育#动物#风光#放松#4K#HDR#movie#music#documentary#bbc documentary#national geographic documentary",
 				"proxy":"proxy",
 				"keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
@@ -795,9 +795,9 @@
 		}],
 		"lives":[
 			{
-				"name": "live.ipv6",
+				"name": "电视直播live",
 				"type": 0,
-				"url": "http://127.0.0.1:10079/p/0/proxy/https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+				"url": "https://wzsvip.github.io/ipv4.m3u",
 				"playerType": 1,
 				"ua": "okhttp/3.15",
 				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
